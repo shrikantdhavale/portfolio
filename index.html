@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,24 +9,25 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <!-- Google Font -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <!-- Icons -->
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
 
-    <!-- ================= NAVBAR ================= -->
+    <!-- NAVBAR -->
 
     <header class="header">
 
         <a href="#home" class="logo">
-            <img id="logoimg" src="./images/virtual-reality.gif">
+            <img id="logoimg" src="./images/virtual-reality.gif" alt="Shrikant Dhavale logo">
         </a>
 
         <nav class="navbar" id="navbar">
@@ -46,8 +47,10 @@
                 <i class="fa-solid fa-moon"></i>
             </button>
 
-            <button id="menu-toggle" aria-label="Open menu">
+            <button id="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="navbar">
+
                 <i class="fa-solid fa-bars"></i>
+
             </button>
 
         </div>
@@ -55,15 +58,13 @@
     </header>
 
 
-    <!-- ================= HERO ================= -->
+    <!-- HERO SECTION -->
 
     <section class="hero" id="home">
 
         <div class="hero-content reveal">
 
-            <p class="hello">
-                HELLO, I'M
-            </p>
+            <p class="hello">HELLO, I'M</p>
 
             <h1>
                 Shrikant <span>Dhavale</span>
@@ -102,14 +103,16 @@
                     <i class="fa-brands fa-linkedin"></i>
                 </a>
 
-              <a href="mailto:shrikantdhavale9517@gmail.com?subject=Hey,Shrikant i would like to connect with you & body=I want to further discuss with you.%0A%0AThank%20you."
-                  aria-label="Email Shrikant">
-                <i class="fa-solid fa-envelope"></i>
-            </a>
-           </div>
+                <a href="mailto:shrikantdhavale9517@gmail.com" aria-label="Email Shrikant">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+            </div>
 
         </div>
 
+
+        <!-- CODE CARD -->
 
         <div class="hero-visual reveal">
 
@@ -124,7 +127,7 @@
                 <div class="code-content">
 
                     <p>
-                     <span class="purple">const</span>
+                        <span class="purple">const</span>
                         <span id="code-developer"></span>
                         <span class="white"> = </span>
                         <span class="yellow">{</span>
@@ -167,7 +170,7 @@
     </section>
 
 
-    <!-- ================= ABOUT ================= -->
+    <!-- ABOUT SECTION -->
 
     <section class="section about" id="about">
 
@@ -193,14 +196,11 @@
 
                     <h3>Tech Enthusiast</h3>
 
-                    <p>
-                        Always learning. Always building.
-                    </p>
+                    <p>Always learning. Always building.</p>
 
                 </div>
 
             </div>
-
 
             <div class="about-content reveal">
 
@@ -253,7 +253,7 @@
     </section>
 
 
-    <!-- ================= SKILLS ================= -->
+    <!-- SKILLS SECTION -->
 
     <section class="section skills" id="skills">
 
@@ -266,7 +266,6 @@
             </h2>
 
         </div>
-
 
         <div class="skills-grid">
 
@@ -323,7 +322,7 @@
     </section>
 
 
-    <!-- ================= PROJECTS ================= -->
+    <!-- PROJECTS SECTION -->
 
     <section class="section projects" id="projects">
 
@@ -337,14 +336,13 @@
 
         </div>
 
-
         <div class="projects-grid">
+
+            <!-- PROJECT 1 -->
 
             <article class="project-card reveal">
 
-                <div class="project-number">
-                    01
-                </div>
+                <div class="project-number">01</div>
 
                 <div class="project-icon">
                     <i class="fa-solid fa-user"></i>
@@ -364,19 +362,22 @@
                     <span>JavaScript</span>
                 </div>
 
-                <a href="https://shrikantdhavale.netlify.app" class="project-link">
+                <a href="https://shrikantdhavale.netlify.app" class="project-link" target="_blank"
+                    rel="noopener noreferrer">
+
                     View Project
                     <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
                 </a>
 
             </article>
 
 
+            <!-- PROJECT 2 -->
+
             <article class="project-card reveal">
 
-                <div class="project-number">
-                    02
-                </div>
+                <div class="project-number">02</div>
 
                 <div class="project-icon">
                     <i class="fa-solid fa-calculator"></i>
@@ -396,18 +397,22 @@
                     <span>JavaScript</span>
                 </div>
 
-             <a href="https://shrikantcalcy.netlify.app/"
-                  class="project-link"
-                    target="_blank">
-                         View Project
-                
+                <a href="https://shrikantcalcy.netlify.app/" class="project-link" target="_blank"
+                    rel="noopener noreferrer">
+
+                    View Project
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                </a>
+
             </article>
+
+
+            <!-- PROJECT 3 -->
 
             <article class="project-card reveal">
 
-                <div class="project-number">
-                    03
-                </div>
+                <div class="project-number">03</div>
 
                 <div class="project-icon">
                     <i class="fa-solid fa-list-check"></i>
@@ -420,7 +425,6 @@
                     delete and completion functionality using JavaScript
                     and DOM manipulation.
                 </p>
-        
 
                 <div class="project-tech">
                     <span>HTML</span>
@@ -428,9 +432,51 @@
                     <span>JavaScript</span>
                 </div>
 
-                <a href="#" class="project-link">
+                <a href="https://github.com/shrikantdhavale" class="project-link" target="_blank"
+                    rel="noopener noreferrer">
+
                     View Project
                     <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                </a>
+
+            </article>
+
+
+            <!-- PROJECT 4: ROOMNEST -->
+
+            <article class="project-card reveal roomnest-project">
+
+                <div class="project-number">04</div>
+
+                <div class="project-icon">
+                    <i class="fa-solid fa-house-chimney"></i>
+                </div>
+
+                <span class="project-label">Live Project</span>
+
+                <h3>RoomNest — Room Finder</h3>
+
+                <p>
+                    A room-finding platform focused on Karve Nagar, Pune,
+                    helping people discover rooms, PGs and hostels.
+                    Property owners can list accommodation details so
+                    users can explore available options.
+                </p>
+
+                <div class="project-tech">
+                    <span>React</span>
+                    <span>JavaScript</span>
+                    <span>Supabase</span>
+                    <span>CSS</span>
+                </div>
+
+                <a href="https://room-nest-kappa.vercel.app/" class="project-link" target="_blank"
+                    rel="noopener noreferrer">
+
+                    Explore RoomNest
+                    <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+
                 </a>
 
             </article>
@@ -440,7 +486,7 @@
     </section>
 
 
-    <!-- ================= EDUCATION ================= -->
+    <!-- EDUCATION SECTION -->
 
     <section class="section education" id="education">
 
@@ -453,7 +499,6 @@
             </h2>
 
         </div>
-
 
         <div class="timeline">
 
@@ -475,7 +520,6 @@
 
             </div>
 
-
             <div class="timeline-item reveal">
 
                 <div class="timeline-dot"></div>
@@ -494,7 +538,6 @@
                 </div>
 
             </div>
-
 
             <div class="timeline-item reveal">
 
@@ -520,7 +563,7 @@
     </section>
 
 
-    <!-- ================= CONTACT ================= -->
+    <!-- CONTACT SECTION -->
 
     <section class="section contact" id="contact">
 
@@ -533,7 +576,6 @@
             </h2>
 
         </div>
-
 
         <div class="contact-container">
 
@@ -549,55 +591,83 @@
                     working on interesting technology projects.
                 </p>
 
+                
+                <!-- CONTACT DETAILS -->
                 <div class="contact-details">
 
+                    <!-- Email -->
                     <div>
                         <i class="fa-solid fa-envelope"></i>
-                        <span>shrikantdhavale9517@gmail.com</span>
+                        <a href="mailto:shrikantdhavale9517@gmail.com">
+                            shrikantdhavale9517@gmail.com
+                        </a>
                     </div>
 
+                    <!-- GitHub -->
                     <div>
                         <i class="fa-brands fa-github"></i>
-                        <span>github.com/shrikantdhavale</span>
+                        <a href="https://github.com/shrikantdhavale" target="_blank" rel="noopener noreferrer">
+                            GitHub Profile
+                        </a>
                     </div>
 
+                    <!-- LinkedIn -->
                     <div>
                         <i class="fa-brands fa-linkedin"></i>
-                        <span>linkedin.com/in/shrikantdhavale009</span>
+                        <a href="https://www.linkedin.com/in/shrikantdhavale009/" target="_blank"
+                            rel="noopener noreferrer">
+                            LinkedIn Profile
+                        </a>
                     </div>
 
                 </div>
 
+
             </div>
 
 
-            <form class="contact-form reveal" id="contact-form">
+            <!-- CONTACT FORM -->
+
+            <form class="contact-form reveal" id="contact-form"
+                action="https://formsubmit.co/ajax/shrikantdhavale9517@gmail.com" method="POST">
+
+                <input type="hidden" name="_subject" value="New portfolio message">
+
+                <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true"
+                    class="form-honeypot">
 
                 <div class="input-group">
 
-                    <input type="text" id="name" required>
+                    <input type="text" id="name" name="name" autocomplete="name" required>
+
                     <label for="name">Your Name</label>
 
                 </div>
 
                 <div class="input-group">
 
-                    <input type="email" id="email" required>
+                    <input type="email" id="email" name="email" autocomplete="email" required>
+
                     <label for="email">Your Email</label>
 
                 </div>
 
                 <div class="input-group">
 
-                    <textarea id="message" rows="5" required></textarea>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
                     <label for="message">Your Message</label>
 
                 </div>
 
                 <button type="submit" class="btn primary-btn">
+
                     Send Message
                     <i class="fa-solid fa-paper-plane"></i>
+
                 </button>
+
+                <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
 
             </form>
 
@@ -606,7 +676,7 @@
     </section>
 
 
-    <!-- ================= FOOTER ================= -->
+    <!-- FOOTER -->
 
     <footer>
 
@@ -614,13 +684,17 @@
             © 2026 Shrikant Dhavale. Built with HTML, CSS & JavaScript.
         </p>
 
-        <a href="#home">
+        <a href="#home" aria-label="Back to top">
             <i class="fa-solid fa-arrow-up"></i>
         </a>
 
     </footer>
 
+
+    <!-- JAVASCRIPT -->
+
     <script src="script.js"></script>
 
 </body>
+
 </html>
